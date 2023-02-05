@@ -55,4 +55,30 @@
     border: .25vmin solid black;
     border-radius: 8px;
 }
-
+@media (max-width: 1500px) {
+    #board {
+        opacity: 0.85;
+    }
+    #scoreBox {
+        top: 50vh;
+        transform: translate(-50%,-50%);
+        left: 50vw;
+        z-index: 1;
+    }
+    #hiscoreBox {
+        top: 50vh;
+        transform: translate(-50%,50%);
+        left: 50vw;
+        z-index: 1;
+    }
+}
+@media (max-width: 850px) {
+    #scoreBox {
+        width: 114px;
+        font-size: 19px;
+    }
+    #hiscoreBox {
+        width: 161px;
+        font-size: 19px;
+    }
+}
